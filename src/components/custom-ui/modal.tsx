@@ -56,6 +56,10 @@ export const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
                 src={IMAGE_URL}
                 alt="Placeholder"
                 className="rounded w-full h-48 object-cover"
+                onError={(e) => {
+                  (e.target as HTMLImageElement).src =
+                    "https://via.placeholder.com/300?text=No+Image";
+                }}
               />
               <div className="mt-4">
                 <p className="text-sm text-gray-500">User: {user?.name}</p>
