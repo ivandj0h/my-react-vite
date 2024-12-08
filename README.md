@@ -34,4 +34,17 @@ npm install
 4. Run the development server:
   ```bash
   npm run dev
-  
+  ```
+
+## Demo Modal
+Below is the modal design used in this project :
+
+![Home](./public/modal-1.png)
+
+![Loading Modal](./public/modal-2.png)
+
+![Modal Active](./public/modal-3.png)
+
+## Credits
+
+[ivandjoh](https://linkedin.com/in/ivandjoh)
